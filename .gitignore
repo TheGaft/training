@@ -3,6 +3,3 @@ dist/
 .*
 !.gitignore
 !.eslintrc
-
-docker-compose.yaml
-Dockerfile
