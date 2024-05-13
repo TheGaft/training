@@ -1,0 +1,31 @@
+.text {
+
+  &,
+  * {
+    font-size: 25px;
+  }
+
+  margin: 10px 0;
+}
+
+.btn {
+  min-width: 30px;
+  min-height: 25px;
+  text-align: center;
+  border: 1px solid black;
+  cursor: pointer;
+
+  outline: none !important;
+
+  &+& {
+    margin-left: 3px;
+  }
+
+  &:hover {
+    background-color: rgba(cyan, 0.2);
+  }
+}
+
+.activeBtn {
+  background-color: rgba(yellow, 0.5);
+}
